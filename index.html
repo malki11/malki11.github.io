@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasser Beirat | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="logo">Nasser Beirat</div>
+    <div class="burger" onclick="toggleMenu()">&#9776;</div>
+    <div class="menu" id="menu">
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#experience" onclick="closeMenu()">Skills</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero" id="profile">
+    <p class="small">Hello, I'm</p>
+    <h1>Nasser Beirat</h1>
+    <p class="role"><span id="typing"></span></p>
+    <div class="buttons">
+      <a class="btn primary" href="#projects">See my work</a>
+      <a class="btn" href="#contact">Contact me</a>
+    </div>
+    <div class="social">
+      <a href="https://github.com/malki11" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/nasser-beirat-373080333/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <p class="small">Get to know more</p>
+    <h2>About me</h2>
+    <div class="about-wrap">
+      <div class="cards">
+        <div class="card">
+          <h3>Experience</h3>
+          <p>Real websites for real businesses</p>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <p>Axsos Academy, full-stack development</p>
+        </div>
+      </div>
+      <p>I came to software after working in very different jobs, from driving trucks to factory and amusement park work. Those jobs taught me to show up, work with people and finish what I start. Now I build websites that load fast, read clearly and are easy to keep up to date.</p>
+    </div>
+  </div>
+
+  <div class="section" id="experience">
+    <p class="small">Explore my</p>
+    <h2>Skills</h2>
+    <div class="skills-wrap">
+      <div class="skill-box">
+        <h3>Frontend</h3>
+        <div class="skill"><span>HTML</span></div>
+        <div class="skill"><span>CSS</span></div>
+        <div class="skill"><span>JavaScript</span></div>
+      </div>
+      <div class="skill-box">
+        <h3>Backend</h3>
+        <div class="skill"><span>Will learn soon</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="projects">
+    <p class="small">Browse my recent</p>
+    <h2>Projects</h2>
+    <div class="projects-wrap">
+      <div class="project">
+        <img class="thumb-img" src="https://halalgen.ai/images/seo%20images/socialshare_16x9_landscape.jpg" alt="HalalGen preview">
+        <div class="project-body">
+          <h3>HalalGen</h3>
+          <p>An AI tool that creates halal pictures and videos.</p>
+          <a class="btn primary" href="https://halalgen.ai/" target="_blank" rel="noopener">Live site</a>
+        </div>
+      </div>
+      <div class="project">
+        <div class="thumb green">Zarb Al-Hawsh Al-Qadeem</div>
+        <div class="project-body">
+          <h3>Zarb Al-Hawsh Al-Qadeem</h3>
+          <p>A bilingual English and Arabic restaurant web page.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <p class="small">Get in touch</p>
+    <h2>Contact me</h2>
+    <div class="contact-box">
+      <a href="mailto:nassermalki17a@gmail.com">nassermalki17a@gmail.com</a>
+      <a href="https://wa.me/970569301211" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.linkedin.com/in/nasser-beirat-373080333/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="footer">&copy; <span id="year"></span> Nasser Beirat</div>
+  <script src="script.js"></script>
+</body>
+</html>
